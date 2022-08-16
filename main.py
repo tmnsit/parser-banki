@@ -2,6 +2,8 @@ import requests
 from dotenv import dotenv_values
 import json
 import math
+import os
+
 
 from helper import Helper
 
@@ -21,6 +23,7 @@ class Parser:
         self.cities_collection = collections_data['cities']
         self.programs_collection = collections_data['programs']
         self.banks_collection = collections_data['banks']
+
 
     def start_parse(self):
         print('Start parsing.....')
@@ -80,11 +83,11 @@ class Parser:
             json.dump(new_banks, f, ensure_ascii=False, indent=4)
 
     def save_finish_file_json(self, data):
-        with open('upload/finish.json', 'w', encoding='utf-8') as f:
+        with open(os.path.dirname(os.path.abspath(__file__)) + '/upload/finish.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
     def get_new_banks_from_json(self):
-        with open('upload/data.json', 'r', encoding='utf-8') as f:
+        with open(os.path.dirname(os.path.abspath(__file__)) + '/upload/data.json', 'r', encoding='utf-8') as f:
             _ipoteka = json.load(f)
             return _ipoteka
 
@@ -101,12 +104,17 @@ class Parser:
                             if _bank_name in _bank_key:
                                 for program in self.programs_collection:
                                     _program_name = program['name'].lower()
-                                    for _program_key in _mortgages_file[_city_key][_bank_key].keys():
-                                        if _program_name in _program_key:
-                                            _new_bank = self.arr_prepair(
-                                                _mortgages_file[_city_key][_bank_key][_program_key], bank_id=bank['id'],
-                                                city_id=city['id'], program_id=program['id'])
-                                            banks.append(_new_bank)
+                                    for code in program['codes']:
+                                        _code = ''
+                                        if _code:
+                                            break
+                                        for _program_key in _mortgages_file[_city_key][_bank_key].keys():
+                                            if code.lower() in _program_key.lower():
+                                                _code = _program_key
+                                                _new_bank = self.arr_prepair(
+                                                    _mortgages_file[_city_key][_bank_key][_program_key], bank_id=bank['id'],
+                                                    city_id=city['id'], program_id=program['id'])
+                                                banks.append(_new_bank)
         return banks
 
     def arr_prepair(self, arr_bank, bank_id, city_id, program_id):

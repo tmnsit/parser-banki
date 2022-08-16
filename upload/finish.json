@@ -3,6 +3,30 @@
         {
             "id": 2,
             "city": 1,
+            "rate": 6.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 705882,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 600000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "city": 1,
             "rate": 5.7,
             "term": {
                 "min": 1,
@@ -123,6 +147,30 @@
         {
             "id": 6,
             "city": 1,
+            "rate": 6.6,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 6,
+            "city": 1,
             "rate": 5.6,
             "term": {
                 "min": 3,
@@ -190,6 +238,30 @@
             },
             "programs": [
                 5
+            ]
+        },
+        {
+            "id": 7,
+            "city": 1,
+            "rate": 4.3,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 823529,
+                "max": 95400000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 4770000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
             ]
         },
         {
@@ -363,6 +435,30 @@
         {
             "id": 10,
             "city": 1,
+            "rate": 6.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 10,
+            "city": 1,
             "rate": 5.7,
             "term": {
                 "min": 1,
@@ -430,6 +526,30 @@
             },
             "programs": [
                 5
+            ]
+        },
+        {
+            "id": 11,
+            "city": 1,
+            "rate": 6.9,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                2
             ]
         },
         {
@@ -627,6 +747,30 @@
         {
             "id": 2,
             "city": 2,
+            "rate": 6.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 705882,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 600000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "city": 2,
             "rate": 5.7,
             "term": {
                 "min": 1,
@@ -747,6 +891,30 @@
         {
             "id": 6,
             "city": 2,
+            "rate": 6.6,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 6,
+            "city": 2,
             "rate": 5.6,
             "term": {
                 "min": 3,
@@ -814,6 +982,30 @@
             },
             "programs": [
                 5
+            ]
+        },
+        {
+            "id": 7,
+            "city": 2,
+            "rate": 4.3,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 823529,
+                "max": 95400000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 4770000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
             ]
         },
         {
@@ -987,6 +1179,30 @@
         {
             "id": 10,
             "city": 2,
+            "rate": 6.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 10,
+            "city": 2,
             "rate": 5.7,
             "term": {
                 "min": 1,
@@ -1054,6 +1270,30 @@
             },
             "programs": [
                 5
+            ]
+        },
+        {
+            "id": 11,
+            "city": 2,
+            "rate": 6.9,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                2
             ]
         },
         {
@@ -1251,6 +1491,30 @@
         {
             "id": 2,
             "city": 3,
+            "rate": 6.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 705882,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 600000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "city": 3,
             "rate": 5.7,
             "term": {
                 "min": 1,
@@ -1366,6 +1630,30 @@
             },
             "programs": [
                 5
+            ]
+        },
+        {
+            "id": 6,
+            "city": 3,
+            "rate": 6.6,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
             ]
         },
         {
@@ -1515,6 +1803,30 @@
         {
             "id": 10,
             "city": 3,
+            "rate": 6.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 10,
+            "city": 3,
             "rate": 5.7,
             "term": {
                 "min": 1,
@@ -1582,6 +1894,30 @@
             },
             "programs": [
                 5
+            ]
+        },
+        {
+            "id": 11,
+            "city": 3,
+            "rate": 6.9,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                2
             ]
         },
         {
