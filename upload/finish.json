@@ -1,74 +1,20 @@
 {
-    "data": [
+    "mortgages": [
         {
-            "id": 1,
-            "name": "Сбербанк",
-            "city": 1,
-            "rate": 10.5,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/08cffd220c9fac1652549043a82fe1cd.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 2000000
-            },
-            "amount-of-credit": {
-                "min": 300000,
-                "max": 100000000
-            },
-            "first-payment": {
-                "min": 20,
-                "max": 95
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 11,
-            "name": "Сбербанк",
-            "city": 1,
-            "rate": 6.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/08cffd220c9fac1652549043a82fe1cd.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 255000,
-                "max": 25500000
-            },
-            "amount-of-credit": {
-                "min": 300000,
-                "max": 30000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 15
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 12,
-            "name": "Сбербанк",
+            "id": 2,
             "city": 1,
             "rate": 5.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/08cffd220c9fac1652549043a82fe1cd.svg",
             "term": {
                 "min": 1,
                 "max": 30
             },
             "apart-price": {
-                "min": 1000000,
-                "max": 20000000
+                "min": 588235,
+                "max": 600000000
             },
             "amount-of-credit": {
-                "min": 300000,
-                "max": 100000000
+                "min": 500000,
+                "max": 30000000
             },
             "first-payment": {
                 "min": 15,
@@ -79,47 +25,547 @@
             ]
         },
         {
-            "id": 13,
-            "name": "ВТБ",
+            "id": 2,
             "city": 1,
-            "rate": 9.9,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/7df0402587ef0d0288b932ee09c884f8.svg",
+            "rate": 4.7,
             "term": {
                 "min": 1,
                 "max": 30
             },
             "apart-price": {
-                "min": 1000000,
-                "max": 100000000
+                "min": 352941,
+                "max": 360000000
             },
             "amount-of-credit": {
-                "min": 1000000,
-                "max": 16000000
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 3,
+            "city": 1,
+            "rate": 5.4,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "city": 1,
+            "rate": 10,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 125000,
+                "max": 56540000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 2827000
             },
             "first-payment": {
                 "min": 20,
                 "max": 95
             },
             "programs": [
-                1
+                4
             ]
         },
         {
-            "id": 14,
-            "name": "ВТБ",
+            "id": 3,
             "city": 1,
-            "rate": 6.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/7df0402587ef0d0288b932ee09c884f8.svg",
+            "rate": 5,
             "term": {
                 "min": 1,
                 "max": 30
             },
             "apart-price": {
-                "min": 1000000,
-                "max": 20000000
+                "min": 117647,
+                "max": 360000000
             },
             "amount-of-credit": {
-                "min": 1000000,
+                "min": 100000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 6,
+            "city": 1,
+            "rate": 5.6,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 6,
+            "city": 1,
+            "rate": 10.99,
+            "term": {
+                "min": 1,
+                "max": 29
+            },
+            "apart-price": {
+                "min": 625000,
+                "max": 60020000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 3001000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 6,
+            "city": 1,
+            "rate": 4.5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 7,
+            "city": 1,
+            "rate": 5,
+            "term": {
+                "min": 0,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 7,
+            "city": 1,
+            "rate": 4.3,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 823529,
+                "max": 95400000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 4770000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 7,
+            "city": 1,
+            "rate": 5.5,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 823529,
+                "max": 84600000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 4230000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 7,
+            "city": 1,
+            "rate": 8,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 777778,
+                "max": 67300000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 3365000
+            },
+            "first-payment": {
+                "min": 10,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 7,
+            "city": 1,
+            "rate": 5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 9,
+            "city": 1,
+            "rate": 6,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 9,
+            "city": 1,
+            "rate": 5,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 10,
+            "city": 1,
+            "rate": 5.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 10,
+            "city": 1,
+            "rate": 9.3,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 60000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 3000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 10,
+            "city": 1,
+            "rate": 4.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 11,
+            "city": 1,
+            "rate": 5.99,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 11,
+            "city": 1,
+            "rate": 5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 12,
+            "city": 1,
+            "rate": 6.49,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 705882,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 600000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 13,
+            "city": 1,
+            "rate": 11,
+            "term": {
+                "min": 3,
+                "max": 20
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 53300000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 2665000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 13,
+            "city": 1,
+            "rate": 4.5,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 16,
+            "city": 1,
+            "rate": 6.5,
+            "term": {
+                "min": 5,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 120000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
                 "max": 6000000
             },
             "first-payment": {
@@ -131,21 +577,19 @@
             ]
         },
         {
-            "id": 15,
-            "name": "ВТБ",
+            "id": 16,
             "city": 1,
-            "rate": 5.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/7df0402587ef0d0288b932ee09c884f8.svg",
+            "rate": 5,
             "term": {
-                "min": 3,
-                "max": 30
+                "min": 5,
+                "max": 25
             },
             "apart-price": {
-                "min": 1000000,
-                "max": 100000000
+                "min": 352941,
+                "max": 120000000
             },
             "amount-of-credit": {
-                "min": 1000000,
+                "min": 300000,
                 "max": 6000000
             },
             "first-payment": {
@@ -158,801 +602,139 @@
         },
         {
             "id": 16,
-            "name": "Открытие",
             "city": 1,
-            "rate": 10.99,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/8d6990855ba264a78d93a7364e074ca3.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 20000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 20,
-                "max": 95
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 17,
-            "name": "Открытие",
-            "city": 1,
-            "rate": 6.1,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/8d6990855ba264a78d93a7364e074ca3.svg",
-            "term": {
-                "min": 5,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 100000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 18,
-            "name": "Открытие",
-            "city": 1,
-            "rate": 5.8,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/8d6990855ba264a78d93a7364e074ca3.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 19,
-            "name": "Промсвязьбанк",
-            "city": 1,
-            "rate": 10.4,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/be3b8630d8beb68d9ce946b311a5b15e.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 2500000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 10,
-                "max": 80
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 20,
-            "name": "Промсвязьбанк",
-            "city": 1,
-            "rate": 6.35,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/be3b8630d8beb68d9ce946b311a5b15e.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 21,
-            "name": "Промсвязьбанк",
-            "city": 1,
-            "rate": 5.1,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/be3b8630d8beb68d9ce946b311a5b15e.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 50
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 22,
-            "name": "Уралсиб",
-            "city": 1,
-            "rate": 10.69,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/2c005345d6fea465c9185d254abddb6d.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 6000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 6000000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 20,
-                "max": 95
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 23,
-            "name": "Уралсиб",
-            "city": 1,
-            "rate": 6.49,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/2c005345d6fea465c9185d254abddb6d.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 100000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 24,
-            "name": "Уралсиб",
-            "city": 1,
-            "rate": 6.0,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/2c005345d6fea465c9185d254abddb6d.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 26,
-            "name": "Альфабанк",
-            "city": 1,
-            "rate": 10.89,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/9249f5cca6ba7ecfe38111b9a1eba82b.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 20000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 20,
-                "max": 80
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 27,
-            "name": "Альфабанк",
-            "city": 1,
-            "rate": 6.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/9249f5cca6ba7ecfe38111b9a1eba82b.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 80
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 28,
-            "name": "Дом РФ",
-            "city": 1,
-            "rate": 10.5,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/b2738af734c9a159f6882cf98ba47275.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 10,
-                "max": 80
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 29,
-            "name": "Дом РФ",
-            "city": 1,
-            "rate": 6.1,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/b2738af734c9a159f6882cf98ba47275.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 30,
-            "name": "Дом РФ",
-            "city": 1,
-            "rate": 5.1,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/b2738af734c9a159f6882cf98ba47275.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 31,
-            "name": "Росбанк Дом",
-            "city": 1,
-            "rate": 11.5,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/f41cbca1b2ecb1473ac93b50a41b5d28.svg",
+            "rate": 4.3,
             "term": {
                 "min": 5,
                 "max": 25
             },
             "apart-price": {
-                "min": 1000000,
-                "max": 16000000
+                "min": 352941,
+                "max": 360000000
             },
             "amount-of-credit": {
-                "min": 1000000,
-                "max": 16000000
+                "min": 300000,
+                "max": 18000000
             },
             "first-payment": {
                 "min": 15,
-                "max": 50
+                "max": 95
             },
             "programs": [
-                1
+                5
             ]
         },
         {
-            "id": 32,
-            "name": "Росбанк Дом",
-            "city": 1,
-            "rate": 6.1,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/f41cbca1b2ecb1473ac93b50a41b5d28.svg",
-            "term": {
-                "min": 5,
-                "max": 25
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 15
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 33,
-            "name": "Росбанк Дом",
-            "city": 1,
+            "id": 2,
+            "city": 2,
             "rate": 5.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/f41cbca1b2ecb1473ac93b50a41b5d28.svg",
-            "term": {
-                "min": 5,
-                "max": 25
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 50
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 34,
-            "name": "Россельхозбанк",
-            "city": 1,
-            "rate": 10.25,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/a86650a94f4386dd1e6502e090918602.svg",
             "term": {
                 "min": 1,
                 "max": 30
             },
             "apart-price": {
-                "min": 1000000,
-                "max": 100000000
+                "min": 588235,
+                "max": 600000000
             },
             "amount-of-credit": {
                 "min": 500000,
-                "max": 7000000
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 2,
+            "city": 2,
+            "rate": 4.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 3,
+            "city": 2,
+            "rate": 5.4,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "city": 2,
+            "rate": 10,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 125000,
+                "max": 56540000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 2827000
             },
             "first-payment": {
                 "min": 20,
                 "max": 95
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 35,
-            "name": "Россельхозбанк",
-            "city": 1,
-            "rate": 6.0,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/a86650a94f4386dd1e6502e090918602.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 36,
-            "name": "Россельхозбанк",
-            "city": 1,
-            "rate": 5.0,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/a86650a94f4386dd1e6502e090918602.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 38,
-            "name": "Совкомбанк",
-            "city": 1,
-            "rate": 9.59,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/57e464f22b9842a5f72f4dacd3827de2.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 20,
-                "max": 95
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 39,
-            "name": "Совкомбанк",
-            "city": 1,
-            "rate": 6.75,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/57e464f22b9842a5f72f4dacd3827de2.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 40,
-            "name": "Металлинвестбанк",
-            "city": 1,
-            "rate": 15.8,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/9b429542c762a2513a1a0cba332bf1b6.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 10,
-                "max": 14
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 41,
-            "name": "Металлинвестбанк",
-            "city": 1,
-            "rate": 6.4,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/9b429542c762a2513a1a0cba332bf1b6.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 50
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 42,
-            "name": "Металлинвестбанк",
-            "city": 1,
-            "rate": 5.29,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/9b429542c762a2513a1a0cba332bf1b6.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 50
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 43,
-            "name": "Газпромбанк",
-            "city": 1,
-            "rate": 10.1,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/04/63e0bc98734dfb411ca46b14c1fb0486.svg",
-            "term": {
-                "min": 1,
-                "max": 20
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 5000000,
-                "max": 16000000
-            },
-            "first-payment": {
-                "min": 10,
-                "max": 19
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 44,
-            "name": "Газпромбанк",
-            "city": 1,
-            "rate": 6.3,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/04/63e0bc98734dfb411ca46b14c1fb0486.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 50
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 45,
-            "name": "Альфабанк",
-            "city": 1,
-            "rate": 5.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/9249f5cca6ba7ecfe38111b9a1eba82b.svg",
-            "term": {
-                "min": 3,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 20000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 6000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 80
-            },
-            "programs": [
-                3
-            ]
-        },
-        {
-            "id": 46,
-            "name": "Сбербанк",
-            "city": 1,
-            "rate": 10.3,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/08cffd220c9fac1652549043a82fe1cd.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 1000000,
-                "max": 16000000
-            },
-            "amount-of-credit": {
-                "min": 1000000,
-                "max": 2780000
-            },
-            "first-payment": {
-                "min": 10,
-                "max": 30
             },
             "programs": [
                 4
             ]
         },
         {
-            "id": 47,
-            "name": "Сбербанк",
-            "city": 1,
-            "rate": 4.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/08cffd220c9fac1652549043a82fe1cd.svg",
+            "id": 3,
+            "city": 2,
+            "rate": 5,
             "term": {
                 "min": 1,
                 "max": 30
             },
             "apart-price": {
-                "min": 1000000,
-                "max": 16000000
+                "min": 117647,
+                "max": 360000000
             },
             "amount-of-credit": {
-                "min": 1000000,
-                "max": 9000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 80
-            },
-            "programs": [
-                5
-            ]
-        },
-        {
-            "id": 48,
-            "name": "Дом РФ",
-            "city": 1,
-            "rate": 4.3,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/b2738af734c9a159f6882cf98ba47275.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 2700000,
-                "max": 30000000
-            },
-            "amount-of-credit": {
-                "min": 625000,
-                "max": 9000000
+                "min": 100000,
+                "max": 18000000
             },
             "first-payment": {
                 "min": 15,
@@ -963,18 +745,448 @@
             ]
         },
         {
-            "id": 49,
-            "name": "ВТБ",
-            "city": 1,
-            "rate": 4.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/7df0402587ef0d0288b932ee09c884f8.svg",
+            "id": 6,
+            "city": 2,
+            "rate": 5.6,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 6,
+            "city": 2,
+            "rate": 10.99,
+            "term": {
+                "min": 1,
+                "max": 29
+            },
+            "apart-price": {
+                "min": 625000,
+                "max": 60020000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 3001000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 6,
+            "city": 2,
+            "rate": 4.5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 7,
+            "city": 2,
+            "rate": 5,
+            "term": {
+                "min": 0,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 7,
+            "city": 2,
+            "rate": 4.3,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 823529,
+                "max": 95400000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 4770000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 7,
+            "city": 2,
+            "rate": 5.5,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 823529,
+                "max": 84600000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 4230000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 7,
+            "city": 2,
+            "rate": 8,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 777778,
+                "max": 67300000
+            },
+            "amount-of-credit": {
+                "min": 700000,
+                "max": 3365000
+            },
+            "first-payment": {
+                "min": 10,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 7,
+            "city": 2,
+            "rate": 5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 9,
+            "city": 2,
+            "rate": 6,
             "term": {
                 "min": 1,
                 "max": 30
             },
             "apart-price": {
-                "min": 2700000,
-                "max": 20000000
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 9,
+            "city": 2,
+            "rate": 5,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 10,
+            "city": 2,
+            "rate": 5.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 10,
+            "city": 2,
+            "rate": 9.3,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 60000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 3000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 10,
+            "city": 2,
+            "rate": 4.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 11,
+            "city": 2,
+            "rate": 5.99,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 11,
+            "city": 2,
+            "rate": 5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 12,
+            "city": 2,
+            "rate": 6.49,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 705882,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 600000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 13,
+            "city": 2,
+            "rate": 11,
+            "term": {
+                "min": 3,
+                "max": 20
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 53300000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 2665000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 13,
+            "city": 2,
+            "rate": 4.5,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 16,
+            "city": 2,
+            "rate": 6.5,
+            "term": {
+                "min": 5,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 120000000
             },
             "amount-of-credit": {
                 "min": 300000,
@@ -985,26 +1197,24 @@
                 "max": 95
             },
             "programs": [
-                5
+                2
             ]
         },
         {
-            "id": 50,
-            "name": "Газпромбанк",
-            "city": 1,
-            "rate": 5.4,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/04/63e0bc98734dfb411ca46b14c1fb0486.svg",
+            "id": 16,
+            "city": 2,
+            "rate": 5,
             "term": {
-                "min": 1,
-                "max": 30
+                "min": 5,
+                "max": 25
             },
             "apart-price": {
-                "min": 2700000,
-                "max": 100000000
+                "min": 352941,
+                "max": 120000000
             },
             "amount-of-credit": {
                 "min": 300000,
-                "max": 100000000
+                "max": 6000000
             },
             "first-payment": {
                 "min": 15,
@@ -1015,74 +1225,20 @@
             ]
         },
         {
-            "id": 51,
-            "name": "Совкомбанк",
-            "city": 1,
-            "rate": 2.64,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/57e464f22b9842a5f72f4dacd3827de2.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 2700000,
-                "max": 100000000
-            },
-            "amount-of-credit": {
-                "min": 300000,
-                "max": 9000000
-            },
-            "first-payment": {
-                "min": 20,
-                "max": 30
-            },
-            "programs": [
-                5
-            ]
-        },
-        {
-            "id": 52,
-            "name": "Открытие",
-            "city": 1,
-            "rate": 5.0,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/8d6990855ba264a78d93a7364e074ca3.svg",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 2700000,
-                "max": 20000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 9000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 95
-            },
-            "programs": [
-                5
-            ]
-        },
-        {
-            "id": 53,
-            "name": "Уральский банк реконструкции и развития",
-            "city": 1,
+            "id": 16,
+            "city": 2,
             "rate": 4.3,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/bank/2022/07/6c01a923a9cd947b31bca958c0468f6d.png",
             "term": {
                 "min": 5,
                 "max": 25
             },
             "apart-price": {
-                "min": 2700000,
-                "max": 16000000
+                "min": 352941,
+                "max": 360000000
             },
             "amount-of-credit": {
                 "min": 300000,
-                "max": 9000000
+                "max": 18000000
             },
             "first-payment": {
                 "min": 15,
@@ -1093,104 +1249,504 @@
             ]
         },
         {
-            "id": 54,
-            "name": "Ак Барс Банк",
-            "city": 1,
-            "rate": 11.2,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/bank/2022/07/ba6f413bba4b8c6f67f9240e44d0f5e8.png",
+            "id": 2,
+            "city": 3,
+            "rate": 5.7,
             "term": {
                 "min": 1,
                 "max": 30
             },
             "apart-price": {
-                "min": 2700000,
-                "max": 20000000
+                "min": 588235,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 2,
+            "city": 3,
+            "rate": 4.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 3,
+            "city": 3,
+            "rate": 5.4,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "city": 3,
+            "rate": 10,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 125000,
+                "max": 56540000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 2827000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 3,
+            "city": 3,
+            "rate": 5,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 6,
+            "city": 3,
+            "rate": 5.6,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 240000000
             },
             "amount-of-credit": {
                 "min": 500000,
                 "max": 12000000
             },
             "first-payment": {
-                "min": 20,
-                "max": 90
-            },
-            "programs": [
-                1
-            ]
-        },
-        {
-            "id": 55,
-            "name": "Ак Барс Банк",
-            "city": 1,
-            "rate": 6.99,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/bank/2022/07/ba6f413bba4b8c6f67f9240e44d0f5e8.png",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 2700000,
-                "max": 20000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 100000000
-            },
-            "first-payment": {
                 "min": 15,
-                "max": 90
-            },
-            "programs": [
-                2
-            ]
-        },
-        {
-            "id": 56,
-            "name": "Ак Барс Банк",
-            "city": 1,
-            "rate": 5.99,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/bank/2022/07/ba6f413bba4b8c6f67f9240e44d0f5e8.png",
-            "term": {
-                "min": 1,
-                "max": 30
-            },
-            "apart-price": {
-                "min": 2700000,
-                "max": 20000000
-            },
-            "amount-of-credit": {
-                "min": 500000,
-                "max": 100000000
-            },
-            "first-payment": {
-                "min": 15,
-                "max": 90
+                "max": 95
             },
             "programs": [
                 3
             ]
         },
         {
-            "id": 57,
-            "name": "Альфабанк",
-            "city": 1,
-            "rate": 4.7,
-            "img": "https://backend.partner-stroy-test.vprioritete.net/uploads/mortgage/2022/01/9249f5cca6ba7ecfe38111b9a1eba82b.svg",
+            "id": 6,
+            "city": 3,
+            "rate": 10.99,
             "term": {
-                "min": 5,
-                "max": 30
+                "min": 1,
+                "max": 29
             },
             "apart-price": {
-                "min": 2700000,
-                "max": 20000000
+                "min": 625000,
+                "max": 60020000
             },
             "amount-of-credit": {
                 "min": 500000,
-                "max": 100000000
+                "max": 3001000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 6,
+            "city": 3,
+            "rate": 4.5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 18000000
             },
             "first-payment": {
                 "min": 15,
-                "max": 97
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 7,
+            "city": 3,
+            "rate": 5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 588235,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 500000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 9,
+            "city": 3,
+            "rate": 6,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 9,
+            "city": 3,
+            "rate": 5,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 117647,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 100000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 10,
+            "city": 3,
+            "rate": 5.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 10,
+            "city": 3,
+            "rate": 9.3,
+            "term": {
+                "min": 1,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 60000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 3000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                4
+            ]
+        },
+        {
+            "id": 10,
+            "city": 3,
+            "rate": 4.7,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 11,
+            "city": 3,
+            "rate": 5.99,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 375000,
+                "max": 600000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 30000000
+            },
+            "first-payment": {
+                "min": 20,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 11,
+            "city": 3,
+            "rate": 5,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 12,
+            "city": 3,
+            "rate": 6.49,
+            "term": {
+                "min": 3,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 705882,
+                "max": 240000000
+            },
+            "amount-of-credit": {
+                "min": 600000,
+                "max": 12000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 13,
+            "city": 3,
+            "rate": 4.5,
+            "term": {
+                "min": 1,
+                "max": 30
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                5
+            ]
+        },
+        {
+            "id": 16,
+            "city": 3,
+            "rate": 6.5,
+            "term": {
+                "min": 5,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 120000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 6000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                2
+            ]
+        },
+        {
+            "id": 16,
+            "city": 3,
+            "rate": 5,
+            "term": {
+                "min": 5,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 120000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 6000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
+            },
+            "programs": [
+                3
+            ]
+        },
+        {
+            "id": 16,
+            "city": 3,
+            "rate": 4.3,
+            "term": {
+                "min": 5,
+                "max": 25
+            },
+            "apart-price": {
+                "min": 352941,
+                "max": 360000000
+            },
+            "amount-of-credit": {
+                "min": 300000,
+                "max": 18000000
+            },
+            "first-payment": {
+                "min": 15,
+                "max": 95
             },
             "programs": [
                 5
