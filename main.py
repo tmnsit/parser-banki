@@ -101,12 +101,8 @@ class Parser:
                                 for program in self.programs_collection:
                                     _program_name = program['name'].lower()
                                     for code in program['codes']:
-                                        _code = ''
-                                        if _code:
-                                            break
                                         for _program_key in _mortgages_file[_city_key][_bank_key].keys():
-                                            if code.lower() in _program_key.lower():
-                                                _code = _program_key
+                                            if code.lower().strip() in _program_key.lower().strip():
                                                 _new_bank = self.arr_prepair(
                                                     _mortgages_file[_city_key][_bank_key][_program_key], bank_id=bank['id'],
                                                     city_id=city['id'], program_id=program['id'])
@@ -114,17 +110,27 @@ class Parser:
         return banks
 
     def arr_prepair(self, arr_bank, bank_id, city_id, program_id):
+        if arr_bank['initial_fee_from'] is None:
+            arr_bank['initial_fee_from'] = 0
+        if arr_bank['amount_from'] is None:
+            arr_bank['amount_from'] = 0
+        apart_price_min = round(arr_bank['amount_from'] / (1 - (arr_bank['initial_fee_from'] / 100)))
+        apart_price_max = round(arr_bank['amount_to'] / (1 - (95 / 100)))
+        term_min = round(arr_bank['period_from'] / 365)
+        term_max = round(arr_bank['period_to'] / 365)
+
+
         _bank = {
             "id": bank_id,
             "city": city_id,
             "rate": arr_bank['rate_min'],
             "term": {
-                "min": round(arr_bank['period_from'] / 365),
-                "max": round(arr_bank['period_to'] / 365)
+                "min": term_min,
+                "max": term_max
             },
             "apart-price": {
-                "min": round(arr_bank['amount_from'] / (1 - (arr_bank['initial_fee_from'] / 100))),
-                "max": round(arr_bank['amount_to'] / (1 - (95 / 100)))
+                "min": apart_price_min,
+                "max": apart_price_max,
             },
             "amount-of-credit": {
                 "min": arr_bank['amount_from'],
