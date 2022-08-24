@@ -10,7 +10,6 @@ from helper import Helper
 config = dotenv_values(".env")
 
 
-
 class Parser:
     cities_collection: list
     programs_collection: list
@@ -23,7 +22,6 @@ class Parser:
         self.cities_collection = collections_data['cities']
         self.programs_collection = collections_data['programs']
         self.banks_collection = collections_data['banks']
-
 
     def start_parse(self):
         print('Start parsing.....')
@@ -53,9 +51,7 @@ class Parser:
             "x-requested-with": "XMLHttpRequest",
             "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
         }
-        city_names = []
         new_banks = {}
-
         for _city in self.cities_collection:
             count_page = 1
             _city_code = Helper.transform_city_name(_city["name"].lower())
@@ -140,7 +136,8 @@ class Parser:
             },
             "programs": [
                 program_id
-            ]
+            ],
+            "original_name": arr_bank['mortgage_name']
         }
         return _bank
 
