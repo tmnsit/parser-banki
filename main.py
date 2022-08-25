@@ -78,6 +78,9 @@ class Parser:
         with open('upload/data.json', 'w', encoding='utf-8') as f:
             json.dump(new_banks, f, ensure_ascii=False, indent=4)
 
+
+
+
     def save_finish_file_json(self, data):
         with open(os.path.dirname(os.path.abspath(__file__)) + '/upload/finish.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
@@ -99,15 +102,23 @@ class Parser:
                         for _bank_key in _mortgages_file[_city_key].keys():
                             if _bank_name in _bank_key:
                                 for program in self.programs_collection:
-                                    _program_name = program['name'].lower()
                                     for code in program['codes']:
                                         for _program_key in _mortgages_file[_city_key][_bank_key].keys():
                                             if code.lower().strip() in _program_key.lower().strip():
-                                                _new_bank = self.arr_prepair(
-                                                    _mortgages_file[_city_key][_bank_key][_program_key], bank_id=bank['id'],
-                                                    city_id=city['id'], program_id=program['id'])
-                                                banks.append(_new_bank)
+                                                isExclude = False
+                                                for _exclude in program['exclude_codes']:
+                                                    if _exclude.lower().strip() in _program_key.lower().strip():
+                                                        isExclude = True
+                                                        break
+                                                if isExclude == False:
+                                                    _new_bank = self.arr_prepair(
+                                                        _mortgages_file[_city_key][_bank_key][_program_key], bank_id=bank['id'],
+                                                        city_id=city['id'], program_id=program['id'])
+                                                    banks.append(_new_bank)
         return banks
+
+    def checkKey(self):
+        pass
 
     def arr_prepair(self, arr_bank, bank_id, city_id, program_id):
         if arr_bank['initial_fee_from'] is None:
